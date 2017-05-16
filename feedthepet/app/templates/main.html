@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Feed the pet</title>
+        <link rel="stylesheet" href="static/css/style.css" />
+        <script src="static/js/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Feeder</h1>
+        <p>
+            Please select food for our monkey:
+        </p>
+        <p>
+            <label for="food">Food kind:</label>
+            <select id="food">
+                <option disabled selected value="">Select one option</option>
+                <option value="a cucumber">Cucumber</option>
+                <option value="two potatoes">Potato (2)</option>
+                <option value="a whiskas">Whiskas Pack</option>
+            </select>
+        </p>
+        <p>
+            <button id="feed-button">Feed</button>
+        </p>
+        <p id="response">Press the button to feed monkey!</p>
+        <hr/>
+        <p class="footer">
+            Copyright &copy; @nsychev, 2017
+        </p>
+        <script>
+            $(document).ready(function() {
+                $('#feed-button').click(function() {
+                    var data = $('#food').val();
+                    console.log(data);
+                    if (data == '') {
+                        alert('Select food please');
+                        return;
+                    }
+                    $.get('/feedthepet/api/monkey/', {
+                        "food": data
+                    }, function(response) {
+                        $('#response').text(response);
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

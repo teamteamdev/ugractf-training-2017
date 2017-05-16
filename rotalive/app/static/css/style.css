@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Ubuntu+Mono&subset=cyrillic');
+
+@media screen and (min-width: 1025px) {
+    body {
+        padding: 10% 25%;
+    }
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#offer {
+    color: #222;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+code {
+    background-color: #ddd;
+    color: #111;
+    padding: 1px 3px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.footer {
+    font-size: 1rem;
+}
+
+input, button {
+    box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+input {
+    padding: 7px;
+}
+
+button {
+    padding: 7px 15px;
+    background-color: chartreuse;
+}
+
+.error {
+    border-radius: 3px;
+    padding: 10px;
+    background-color: lightcoral;
+}

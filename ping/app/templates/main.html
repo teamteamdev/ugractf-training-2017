@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Ping</title>
+      <link rel="stylesheet" href="static/css/style.css" />
+      <script src="static/js/data.js"></script>
+  </head>
+  <body>
+    <h1>Pentagon Ping</h1>
+    <p>
+        How stable are we? We can show it just by our ping. Ping any IP in the world and you'll see how fast Pentagon is.
+    </p>
+    <form method="post" action="">
+        <p>
+            <label for="ip">Ping </label>
+            <input type="text" name="ip" id="ip" />
+        </p>
+        <p>
+            <button id="send">Ping it</button>
+        </p>
+        {% if response %}
+            <pre>{{ response }}</pre>
+        {% endif %}
+    </form>
+    <hr/>
+    <p class="footer">
+      Copyright &copy; @nsychev, 2017
+    </p>
+  </body>
+</html>

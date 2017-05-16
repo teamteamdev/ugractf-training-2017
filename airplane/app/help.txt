@@ -1,0 +1,8 @@
+Your goal: 15000 points
+                       
+       Controls:       
+ a/d  - move left/right
+  w   - continue       
+  q   - quit game      
+
+Enter - start game     
