@@ -9,9 +9,7 @@
 2. (Misc, 100) Hear — в папке со звуками появился новый файл, флаг написан на спектрограмме
 3. (Misc, 300) Scream — декомпилируем игру (а именно один из DLL-файлов) или прогоняем его через утилиту strings (ищет utf-8 строки в бинарном файле). И тот, и другой способ помогает получить base64 от флага.
 
-Интересно, что флаг от Scream мог быть получен в любом другом из этих трёх тасков :)
-
-Решения тасков категории SQL доступны [на Хабре](https://habrahabr.ru/post/253885/).
+Интересно, что флаг от Scream мог быть получен в любом другом из этих трёх тасков.
 
 ## Первая тренировка от Никиты
 
@@ -20,8 +18,11 @@
 2. [Game](https://github.com/upmlctf/ugractf-training-2017/tree/master/airplane)
 3. [New Maze](https://github.com/upmlctf/ugractf-training-2017/tree/master/newmaze)
 
-#### Bash
+#### Admin
 1. [Easy bash](https://github.com/upmlctf/ugractf-training-2017/tree/master/bash)
+
+#### SQL
+Решения всех 10 заданий доступны [на Хабрахабре](https://habrahabr.ru/post/253885/).
 
 #### Web
 1. [See inside](https://github.com/upmlctf/ugractf-training-2017/tree/master/seeinside)
