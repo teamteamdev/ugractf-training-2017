@@ -1,43 +1,92 @@
 # Задания тренировки к Ugra CTF 2017
 
+*Репозиторий находится в процессе заполнения тасками и райтапами.*
+
 ## Тренировочная платформа Keva
 Решения почти всех тасков с training.keva.su доступны [на Гитхабе команды Ufologists](https://github.com/ufologists/ufoctf-school-2016/)
 
 Три таска были не с UFO CTF School 2016, идеи решения у них следующие:
 
-1. (Stegano, 50) Find — в папке с ресурсами находим файл background.png, в котором написан флаг азбукой Морзе
-2. (Misc, 100) Hear — в папке со звуками появился новый файл, флаг написан на спектрограмме
-3. (Misc, 300) Scream — декомпилируем игру (а именно один из DLL-файлов) или прогоняем его через утилиту strings (ищет utf-8 строки в бинарном файле). И тот, и другой способ помогает получить base64 от флага.
+1. *(Stegano, 50)* Find — в папке с ресурсами находим файл background.png, в котором написан флаг азбукой Морзе
+2. *(Misc, 100)* Hear — в папке со звуками появился новый файл, флаг написан на спектрограмме
+3. *(Misc, 300)* Scream — декомпилируем игру (а именно один из DLL-файлов) или прогоняем его через утилиту strings (ищет utf-8 строки в бинарном файле). И тот, и другой способ помогает получить base64 от флага.
 
 Интересно, что флаг от Scream мог быть получен в любом другом из этих трёх тасков.
 
 ## Первая тренировка от Никиты
 
-#### PPC
-1. [Maze](https://github.com/upmlctf/ugractf-training-2017/tree/master/maze)
-2. [Game](https://github.com/upmlctf/ugractf-training-2017/tree/master/airplane)
-3. [New Maze](https://github.com/upmlctf/ugractf-training-2017/tree/master/newmaze)
+### PPC
+1. [Maze](maze/)
+2. [Game](airplane/)
+3. [New Maze](newmaze/)
 
-#### Admin
-1. [Easy bash](https://github.com/upmlctf/ugractf-training-2017/tree/master/bash)
+### Admin
+1. [Easy bash](bash/)
 
-#### SQL
+### SQL
 Решения всех 10 заданий доступны [на Хабрахабре](https://habrahabr.ru/post/253885/).
 
-#### Web
-1. [See inside](https://github.com/upmlctf/ugractf-training-2017/tree/master/seeinside)
-2. [Give me flag](https://github.com/upmlctf/ugractf-training-2017/tree/master/givemeflag)
-3. [Cooking](https://github.com/upmlctf/ugractf-training-2017/tree/master/cooking)
-4. [Feed the pet](https://github.com/upmlctf/ugractf-training-2017/tree/master/feedthepet)
-5. [Invisible](https://github.com/upmlctf/ugractf-training-2017/tree/master/invisible)
-6. [Easy pass](https://github.com/upmlctf/ugractf-training-2017/tree/master/easypass)
-7. [Humanized](https://github.com/upmlctf/ugractf-training-2017/tree/master/humanized)
-8. [Manual](https://github.com/upmlctf/ugractf-training-2017/tree/master/invisible)
-9. [PentaHide](https://github.com/upmlctf/ugractf-training-2017/tree/master/pentahide)
-10. [Rotalive](https://github.com/upmlctf/ugractf-training-2017/tree/master/rotalive)
-11. [Ping](https://github.com/upmlctf/ugractf-training-2017/tree/master/ping)
-12. [RegExp](https://github.com/upmlctf/ugractf-training-2017/tree/master/regexp)
+### Web
+1. [See inside](seeinside/)
+2. [Give me flag](givemeflag/)
+3. [Cooking](cooking/)
+4. [Feed the pet](feedthepet/)
+5. [Invisible](invisible/)
+6. [Easy pass](easypass/)
+7. [Humanized](humanized/)
+8. [Manual](invisible/)
+9. [PentaHide](pentahide/)
+10. [Rotalive](rotalive/)
+11. [Ping](ping/)
+12. [RegExp](regexp/)
 
 ## Вторая тренировка от Никиты
-Coming soon...
+
+### Admin
+
+1. Find me
+
+### Crypto
+
+1. PIN
+2. [Only two](https://github.com/ugractf/upmlctf-2016/tree/master/crypto100) — с UPML CTF 2016
+3. [Not so easy](https://github.com/ugractf/upmlctf-2016/tree/master/crypto150) — с UPML CTF 2016
+4. Как интересно
+5. Keith Bostic
+6. [One more cipher](https://github.com/ugractf/upmlctf-2016/blob/master/crypto300) — с UPML CTF 2016
+7. Сложное шифрование
+8. FLAG
+
+### Joy
+
+1. Очень плохой таск
+
+### Recon
+
+1. [Explore world map](https://github.com/ugractf/upmlctf-2016/blob/master/joy200) — с UPML CTF 2016
+
+### Stegano
+
+1. EXIF
+2. [Друг человека](https://github.com/ugractf/upmlctf-2016/blob/master/stegano150) — с UPML CTF 2016
+3. [Пакет Яровой](https://github.com/ugractf/upmlctf-2016/blob/master/stegano100) — с UPML CTF 2016
+4. Logotype
+5. Illuminati
+6. Select your way
+7. [Beautiful sound](https://github.com/ugractf/upmlctf-2016/blob/master/stegano400) — с UPML CTF 2016
+
+### Web
+
+1. Web designer
+2. One more PHP
+
+## Команда
+
+* Таски с UFO CTF School 2016 разработала команда [Ufologists](https://github.com/ufologists), тренировку подготовила команда [Keva](https://ctftime.org/team/2980)
+* Категорию SQL сделал [Александр Берсенев](https://github.com/alexbers)
+* Тренировки от Никиты сделал [Никита Сычев](https://t.me/nsychev)
+
+## Лицензия
+
+Материалы соревнования можно использовать для тренировок, сборов и других личных целей, но запрещено использовать на своих соревнованиях. Подробнее — [в лицензии](LICENSE)
 
