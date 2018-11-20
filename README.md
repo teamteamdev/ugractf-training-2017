@@ -34,7 +34,7 @@
 5. [Invisible](invisible/)
 6. [Easy pass](easypass/)
 7. [Humanized](humanized/)
-8. [Manual](invisible/)
+8. [Manual](manual/)
 9. [PentaHide](pentahide/)
 10. [Rotalive](rotalive/)
 11. [Ping](ping/)
